@@ -3,7 +3,7 @@
 **Company:** ©BYLICKILABS  
 **App ID / Name:** `ai-enterprise-configuration-code-auditor`  
 **Version:** `1.0.0`  
-**Date:** `01/20/2026`
+**Date:** `01/20/2026` <br>
 **Language:** `DE / EN` <br>
 **README:** `DE / EN` <br>
 
