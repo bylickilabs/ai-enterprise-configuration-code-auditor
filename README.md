@@ -4,7 +4,7 @@
 **App ID / Name:** `ai-enterprise-configuration-code-auditor`  
 **Version:** `1.0.0`  
 **Date:** `01/20/2026`
-**Language:** `DE` `EN`
+**Language:** `DE / EN`
 
 | ![](assets/logo.png) |
 |---|
