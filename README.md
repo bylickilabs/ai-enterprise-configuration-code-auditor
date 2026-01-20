@@ -6,6 +6,7 @@
 **Date:** `01/20/2026`
 **Language:** `DE / EN`
 
+
 | ![](assets/logo.png) |
 |---|
 
