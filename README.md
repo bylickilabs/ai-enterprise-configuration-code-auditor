@@ -7,8 +7,6 @@
 **Language:** `DE / EN` <br>
 **README:** `DE / EN` <br>
 
-<br>
-
 | ![](assets/logo.png) |
 |---|
 
