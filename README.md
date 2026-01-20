@@ -1,5 +1,5 @@
 # AI Enterprise Configuration & Code Auditor
-**Author:** ©Thorsten  Bylicki
+**Author:** ©Thorsten  Bylicki <br>
 **Company:** ©BYLICKILABS  
 **App ID / Name:** `ai-enterprise-configuration-code-auditor`  
 **Version:** `1.0.0`  
