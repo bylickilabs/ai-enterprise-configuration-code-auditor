@@ -1,0 +1,40 @@
+:root{
+  --bg:#0b0f1a; --panel:#0f1826; --muted:#8aa0b4;
+  --border:#1f2a3a; --accent:#4fd1c5; --danger:#ff4d4d;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:#d8faff;font-family:Segoe UI,system-ui}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid var(--border)}
+.brand{display:flex;gap:10px;align-items:center}
+.logo{font-size:22px}
+.app-title{font-weight:600}
+.app-sub{color:var(--muted);font-size:12px}
+.actions{display:flex;gap:10px;align-items:center}
+.btn{background:#142033;border:1px solid var(--border);color:#d8faff;padding:8px 12px;border-radius:8px;cursor:pointer}
+.btn.primary{background:linear-gradient(135deg,#1b7,#4fd1c5);color:#001}
+.btn.ghost{background:transparent}
+.layout{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 56px)}
+.sidebar{border-right:1px solid var(--border);padding:12px}
+.nav{display:block;width:100%;padding:10px;border-radius:8px;border:1px solid transparent;background:transparent;color:#d8faff;text-align:left}
+.nav.active,.nav:hover{background:var(--panel);border-color:var(--border)}
+.content{padding:18px}
+.view{display:none}
+.view.active{display:block}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px;margin-bottom:14px}
+.grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.row{display:flex;gap:10px}
+label{display:block;color:var(--muted);margin-bottom:6px}
+input,select{width:100%;padding:8px;border-radius:8px;border:1px solid var(--border);background:#0b1322;color:#d8faff}
+.search{margin-bottom:10px}
+table{width:100%;border-collapse:collapse}
+th,td{border:1px solid var(--border);padding:8px}
+th{background:#142033}
+.risk{display:flex;align-items:center;gap:14px}
+.risk-score{font-size:36px;font-weight:700}
+.risk-level{padding:6px 10px;border-radius:8px;background:#142033}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none}
+.modal-content{max-width:520px;margin:10% auto;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px}
+.github-btn {display: inline-flex;align-items: center;gap: 6px;text-decoration: none;font-weight: 500;}
+.github-btn i {font-size: 1.2em;
+}

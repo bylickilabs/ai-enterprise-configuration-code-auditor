@@ -1,0 +1,31 @@
+# -*- mode: python ; coding: utf-8 -*-
+
+block_cipher = None
+
+a = Analysis(
+    ['app/main.py'],
+    pathex=['.'],
+    binaries=[],
+    datas=[
+        ('ui/*', 'ui'),
+        ('data', 'data'),
+    ],
+    hiddenimports=[],
+    hookspath=[],
+    runtime_hooks=[],
+    excludes=[],
+    cipher=block_cipher,
+)
+
+pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
+
+exe = EXE(
+    pyz,
+    a.scripts,
+    a.binaries,
+    a.zipfiles,
+    a.datas,
+    name='ai-enterprise-auditor',
+    console=True,
+    icon=None
+)
